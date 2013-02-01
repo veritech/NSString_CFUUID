@@ -1,7 +1,7 @@
-NSData+hex
+NSString+CFUUID
 ==========
 
-A small category for returning a Hex representation of a NSData Object.
+A category on NSString to convert a CFUUID.
 
 License
 -------
