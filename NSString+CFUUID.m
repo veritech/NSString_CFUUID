@@ -15,7 +15,7 @@
   
   str = CFUUIDCreateString(NULL, aUUIDRef);
   
-  UUIDStr = (__bridge NSString *)str;
+  UUIDStr = [NSString stringWithString:(__bridge NSString *)str];
   
   CFRelease(str);
   
